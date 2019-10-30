@@ -18,7 +18,7 @@ header {
 	margin-bottom: 2rem;
 }
 
-input[type='text'] {
+.searchBar {
 	margin: 1rem;
 	background: #fff;
 	font-size: 1.3rem;
@@ -31,21 +31,6 @@ input[type='text'] {
 }
 
 /* ##### NamesList ##### */
-tr {
-	padding: 0;
-}
-th {
-	position: left;
-	list-style: none;
-	padding: 0.25rem 0.75rem;
-	margin: 2px;
-	border-radius: 3px;
-}
-td:hover {
-	position: left;
-	cursor: pointer;
-	background-color: #ddd;
-}
 
 /* ##### Columns ##### */
 .column1 {
@@ -57,20 +42,9 @@ td:hover {
 	float: left;
 	width: 50%;
 	padding: 20px;
-	background-color: #ccdef9;
 }
 
 /* ##### Rows ##### */
-.row {
-	margin: 1rem;
-}
-
-.row:after {
-	padding: 1 0rem;
-	content: '';
-	display: table;
-	clear: both;
-}
 
 .tableWrapper {
 	max-height: 800px;
